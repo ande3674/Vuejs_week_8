@@ -1,5 +1,10 @@
 body {
   font-family: 'Fresca', sans-serif;
+  color: red;background-color: lemonChiffon;
+
+}
+
+#selection {
   font-family: 'Acme', sans-serif;
-  color: red;
+  color: blue;
 }
