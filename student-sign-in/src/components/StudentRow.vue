@@ -9,9 +9,9 @@
 <script>
     // Create and export component here
     export default {
-        name: 'StudentTable',
+        name: 'StudentRow',
         props: {
-            students: Object
+            student: Object
         },
         methods: {
             checked(student) {
@@ -23,5 +23,11 @@
 
 <style>
     /* Write styles for this component here */
-
+    .present-true {
+        color: gray;
+        font-style: italic;
+    }
+    .present-false {
+        font-weight: bold;
+    }
 </style>
