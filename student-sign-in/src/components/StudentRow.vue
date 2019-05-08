@@ -1,5 +1,5 @@
 <template>  
-    <tr>
+    <tr class="student-row" v-bind:class="'present-' + student.present">
         <td>{{student.name}}</td>
         <td>{{student.starID}}</td>
         <td><input type="checkbox" v-model="student.present" v-on:change="checked(student)"></td>
